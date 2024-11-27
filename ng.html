@@ -1,40 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hello world</title>
-  <link rel="stylesheet" href="ng.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ttt.css">
 </head>
 <body>
-<div class = "typewriter">
-<h1>Number Guessing Game</h1>
-</div>
 
-<form>
-    <fieldset>
-        <legend>Details</legend>
-<br>
-<label for="srange">Enter Starting Range: </label><br><br>
-<input type="text" id="srange">
-<br><br>
-<label for="erange">Enter Ending Range: </label><br><br>
-<input type="text" id="erange">
-<br><br>
-<center><button id="button-54" class="button-54" role="button">Submit</button></center>
-    </fieldset>
-</form>
-<br><br>
-<div class = "typewriter2">
-    <h1>Your tries</h1>
-</div>
-<p id="p">Correct Guesses: 0</p>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        <p id="ins">
+            Tap on a box to play.<br><br>
+            <b>Player X</b> starts first, followed by <b>Player O</b>.
+        </p>
+        <div id="board" class="board"></div>
+        <br>
+        <button id="reset" class="reset">RESET</button>
+        <p id="message" class="message"></p>
+    </div>
 
-<div class = "typewriter3">
-    <h1>Computer</h1>
-</div>
-<p id="s">Incorrect Guesses: 0</p>
-
-<script src="ng.js"></script>
+<script src="ttt.js"></script>
 </body>
 </html>

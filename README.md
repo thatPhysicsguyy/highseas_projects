@@ -1,1 +1,1 @@
-A simple Number Guessing Games with Cool Animations
+A python To-Do List App using tkinter

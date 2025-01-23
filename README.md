@@ -1,1 +1,1 @@
-A simple Number Guessing Games with Cool Animations
+A simple Weather App using python and tkinter
